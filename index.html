@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treine me</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="page">
+        <!-- A tag correta para indicar um menu/barra de navegação superior é a <nav> -->
+      <nav class="nav">
+        <a id="logo" href="#">
+          <!-- Aqui também adicionei 2 palavras ao atributo "alt" para ficar mais claro que se trata de uma logo da empresa em questão-->
+          <img src="images/logo.svg" alt="Logo da empresa treine.me" />
+        </a>
+        <!-- Por se tratar de uma lista que permite navegarmos por diferentes seções ou páginas relacionadas ao nosso index.html, a tag mais indicada para o caso é a <ul> uma lista não ordenada seguida dos seus itens, representados pela tag <li> -->
+        <ul class="list">
+          <li class="item"><a href="#">Home</a></li>
+          <li class="item"><a href="#">Sobre</a></li>
+          <li class="item"><a href="#">Treinar</a></li>
+        </ul>
+      </nav class="nav">
+        
+        <!-- Foi adicionado a tag <main>, pois ela, semanticamente, indica o conteúdo principal de uma página-->
+      <main class="main">
+        <div>
+          <!-- O título principal de uma página web deve ser representado pela tag <h1> (que diz respeito àquele mais importante na escala de 1 a 6 dos títulos disponíveis no HTML5 - h1, h2, h3, h4, h5, h6) -->
+          <h1 class="title">Treinos <span>exclusivos</span> para você!</h1>
+
+          <!-- Aqui, por se tratar de um parágrafo relacionado ao título principal, a tag mais indicada é a <p> -->
+          <p class="subtitle">
+            Nós criamos treinos <strong>exclusivos e únicos para você.</strong></br>
+            Invista no seu corpo e <strong>tenha muito mais performance</strong> e qualidade de vida.
+          </p>
+
+          <!-- Quando queremos usar um CTA (call to action), que na maioria das vezes tem um verbo no infinitivo ou no imperativo, indicando: completar alguma ação dentro ou fora do site, utilizamos a tag <button> -->
+          <button class="button">
+            <img src="images/whats.svg" alt="Ícone do whatsapp">
+            Comece já
+          </button>
+
+        </div>
+
+        <img src="images/img.png" alt="Desenho de uma mulher pulando corda numa academia.">
+      </main>
+        <!-- Para indicar o rodapé de uma página e melhorar a semântica dela, existe uma tag específica para tal: a <footer>-->
+      <footer class="footer">
+        fale conosco no instagram <a href="https://instagram.com/treineme" target="_blank">@treine.me</a>
+      </footer>
+    </div>
+
+    <img id="balls" src="images/balls.svg" alt="Bolinhas decorativas verdes no canto inferior direito da página.">
+
+    <!-- Uma útlima coisa que foi mexida (e espero que esteja correta), foi a identação dos elementos pais, filhos, netos e agregados hahaha-->
+  </body>
+</html>
